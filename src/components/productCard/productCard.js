@@ -59,10 +59,11 @@ const Detail = styled.p`
     }
 `
 
-export default class ProductCard extends Component {
-    render() {
-        // const {img, price, description} = this.props
 
+
+export default class ProductCard extends Component {
+
+    render() {
         return (
             <ProductCardDiv>
                 <Img>
